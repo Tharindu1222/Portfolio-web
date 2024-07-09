@@ -17,6 +17,8 @@ import work1 from "../public/work1.png";
 import work2 from "../public/work2.png";
 import work3 from "../public/work3.jpg";
 import work4 from "../public/work4.png";
+import work5 from "../public/work5.jpg";
+import work6 from "../public/work6.jpg";
 
 //framer motion
 import { motion } from 'framer-motion';
@@ -60,7 +62,7 @@ export default function Home() {
               className=' cursor-pointer text-xl mx-5 dark:text-white'/>
             </li>
             <li>
-              <a href='' className=' bg-teal-500 text-black px-4 py-2 border-none rounded-md'>Resume</a>
+              <a href='https://drive.google.com/file/d/1xOtIaWOZ1FV7nnXIWcHh4GXabsjhk9p-/view?usp=sharing' className=' bg-teal-500 text-black px-4 py-2 border-none rounded-md'>Resume</a>
             </li>
           </ul>
         </nav>
@@ -71,7 +73,7 @@ export default function Home() {
             Tharindu Dilshan
           </h1>
           <h3 className='text-2xl py-4 md:text-3xl dark:text-white'>
-            I am a <TypeAnimation sequence={['Developer',2000,'Designer',2000,'Content-Creator',2000]}speed={50}repeat={Infinity}/>
+            I am a <TypeAnimation sequence={['Mobile App Developer',2000,'UI | UX Designer',2000,'Web Developer',2000]}speed={50}repeat={Infinity}/>
           </h3>
           <p className=' text-sm py-4 text-slate-900 leading-6 md:text-1xl max-w-xl mx-auto md:text-md dark:text-white'>
           I'm a UI/UX designer and web developer, 
@@ -84,7 +86,7 @@ export default function Home() {
 
         {/*social*/}
         <div className=' text-5xl flex justify-center gap-16 text-gray-800 dark:text-gray-600' >
-          <a href='https://github.com/Tharindu200012'><FaGithub/></a>
+          <a href='https://github.com/Tharindu1222'><FaGithub/></a>
           <a href='https://www.linkedin.com/in/tharindu-dilshan-6735662a9/'><CiLinkedin/></a>
           <a href='https://www.facebook.com/tharindu1222/'><FaFacebook/></a>
         </div>
@@ -108,11 +110,8 @@ export default function Home() {
               Services I Offer
             </h2>
             <p className=' text-sm py-2 text-slate-900 leading-6 dark:text-white'>
-            I specialize in UI/UX design and web development, 
-            creating visually appealing and user-friendly digital experiences. 
-            From crafting seamless websites to responsive design and collaborative problem-solving, 
-            I offer a range of services to bring your digital projects to life. 
-            Let's collaborate to make your online presence stand out.
+            UI/UX Design, Web Development, and Mobile App Development Services<br></br><br></br>
+Enhance your digital footprint with my comprehensive services. I specialize in UI/UX design, creating intuitive and visually appealing interfaces that boost user engagement. My web development expertise ensures robust, scalable, and responsive websites tailored to your business needs. Additionally, I develop high-performance mobile applications for iOS and Android, transforming your ideas into seamless and engaging mobile experiences. Let's work together to bring your vision to life.
             </p>
           </div>
 
@@ -128,8 +127,7 @@ export default function Home() {
                 UI/UX Designing
               </h2>
               <p className='text-sm py-2 text-slate-900 leading-6'>
-              "I specialize in UI/UX design, web development, and mobile app development. 
-              Let's collaborate to bring your digital projects to life!"
+              "Transform your digital presence with intuitive and visually stunning UI/UX design. I specialize in creating user-centric interfaces that enhance the user experience and drive engagement. From wireframing to prototyping, I ensure that every aspect of the design process is tailored to meet your specific needs and goals"
               </p>
             </div>
             </motion.div>
@@ -145,8 +143,7 @@ export default function Home() {
                 Web Develop
               </h2>
               <p className='text-sm py-2 text-slate-900 leading-6'>
-              "I specialize in UI/UX design, web development, and mobile app development. 
-              Let's collaborate to bring your digital projects to life!"
+              "Build a robust and scalable online presence with my web development services. I provide custom web solutions tailored to your business needs, ensuring high performance, security, and seamless user experiences. From front-end design to back-end development, I create responsive and interactive websites that engage and convert visitors."
               </p>
             </div>
             </motion.div>
@@ -161,8 +158,8 @@ export default function Home() {
                 Mobile App Develop
               </h2>
               <p className='text-sm py-2 text-slate-900 leading-6'>
-              "I specialize in UI/UX design, web development, and mobile app development. 
-              Let's collaborate to bring your digital projects to life!"
+              "Bring your ideas to life with top-notch mobile 
+              app development. I specialize in creating intuitive and high-performance mobile applications for both iOS and Android platforms. From concept to deployment, I ensure your app is user-friendly, feature-rich, and tailored to meet your specific business needs. Transform your vision into a seamless mobile experience that engages users and drives results."
               </p>
             </div>  
             </motion.div>
@@ -182,22 +179,37 @@ export default function Home() {
             my work reflects a commitment to creating engaging and seamless digital experiences. 
             Explore and envision the possibilities."
             </p>
-          </div>
+          </div><br></br>
           {/*my work images*/}
+          <h1 className=' text-sm md:text-xl dark:text-white' >UI | UX Designs</h1>
           <div className='flex flex-col gap-10 p-10 lg:flex-row lg:flex-wrap'>
             <div className=' basis-1/3 flex-1'><motion.div
           whileHover={{scale:1.1 , rotate:3}}
           whileTap={{scale:0.8 , rotate:-10 , borderRadius:"100%"}}><Image src={work1} alt='work1' layout='responsive' className='rounded-lg object-cover'/></motion.div></div>
             <div className=' basis-1/3 flex-1'><motion.div
           whileHover={{scale:1.1 , rotate:3}}
+          whileTap={{scale:0.8 , rotate:-10 , borderRadius:"100%"}}><Image src={work4} alt='work4' layout='responsive' className='rounded-lg object-cover'/></motion.div></div>
+            </div>
+
+            <br></br><h1 className=' text-sm md:text-xl dark:text-white' >Mobile App Development</h1><br></br>
+            <div className='flex flex-col gap-10 p-10 lg:flex-row lg:flex-wrap'>
+            <div className=' basis-1/3 flex-1'><motion.div
+          whileHover={{scale:1.1 , rotate:3}}
           whileTap={{scale:0.8 , rotate:-10 , borderRadius:"100%"}}><Image src={work2} alt='work2' layout='responsive' className='rounded-lg object-cover'/></motion.div></div>
             <div className=' basis-1/3 flex-1'><motion.div
           whileHover={{scale:1.1 , rotate:3}}
           whileTap={{scale:0.8 , rotate:-10 , borderRadius:"100%"}}><Image src={work3} alt='work3' layout='responsive' className='rounded-lg object-cover'/></motion.div></div>
+            </div>
+
+            <br></br><h1 className=' text-sm md:text-xl dark:text-white' >Web Development</h1><br></br>
+            <div className='flex flex-col gap-10 p-10 lg:flex-row lg:flex-wrap'>
             <div className=' basis-1/3 flex-1'><motion.div
           whileHover={{scale:1.1 , rotate:3}}
-          whileTap={{scale:0.8 , rotate:-10 , borderRadius:"100%"}}><Image src={work4} alt='work4' layout='responsive' className='rounded-lg object-cover'/></motion.div></div>
-          </div>
+          whileTap={{scale:0.8 , rotate:-10 , borderRadius:"100%"}}><Image src={work6} alt='work2' layout='responsive' className='rounded-lg object-cover'/></motion.div></div>
+            <div className=' basis-1/3 flex-1'><motion.div
+          whileHover={{scale:1.1 , rotate:3}}
+          whileTap={{scale:0.8 , rotate:-10 , borderRadius:"100%"}}><Image src={work5} alt='work3' layout='responsive' className='rounded-lg object-cover'/></motion.div></div>
+            </div>
         </section>
 
         {/*footer*/}
@@ -212,7 +224,7 @@ export default function Home() {
           </div>
           <div>
           <div className=' text-3xl flex justify-center gap-16 text-gray-800 dark:text-gray-500'>
-          <a href='https://github.com/Tharindu200012'><FaGithub/></a>
+          <a href='https://github.com/Tharindu1222'><FaGithub/></a>
           <a href='https://www.linkedin.com/in/tharindu-dilshan-6735662a9/'><CiLinkedin/></a>
           <a href='https://www.facebook.com/tharindu1222/'><FaFacebook/></a>
         </div>
