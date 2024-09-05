@@ -62,7 +62,7 @@ export default function Home() {
               className=' cursor-pointer text-xl mx-5 dark:text-white'/>
             </li>
             <li>
-              <a href='https://drive.google.com/file/d/1xOtIaWOZ1FV7nnXIWcHh4GXabsjhk9p-/view?usp=sharing' className=' bg-teal-500 text-black px-4 py-2 border-none rounded-md'>Resume</a>
+              <a href='https://drive.google.com/file/d/17qWwMy1hr-OF1wyGWnEgHfjqovOTgnr3/view?usp=drive_link' className=' bg-teal-500 text-black px-4 py-2 border-none rounded-md'>Resume</a>
             </li>
           </ul>
         </nav>
