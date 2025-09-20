@@ -10,7 +10,7 @@ import { FaFacebook } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript, SiNextdotjs, SiFirebase, SiNestjs, SiMysql } from "react-icons/si";
 
 //images
-import profileImage from "../public/dev.png";
+import profileImage from "../public/dev1.png";
 import UIUX from "../public/design.png";
 import webDevelop from "../public/code.png";
 import mobileAppDev from "../public/mobiledev.png";
