@@ -1,0 +1,54 @@
+name: Sync GitHub repos
+
+on:
+  schedule:
+    # 00:30 UTC daily
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require GH_PAT
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_PAT" ]; then
+            echo "::error::Missing secret GH_PAT. Add a Personal Access Token with repo access so commits count on your contribution graph (GITHUB_TOKEN commits as github-actions[bot] and do not count)."
+            exit 1
+          fi
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync repos JSON
+        id: sync
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_USERNAME: Tharindu1222
+        run: |
+          RESULT=$(node scripts/sync-github-repos.mjs)
+          echo "Sync result: $RESULT"
+          echo "result=$RESULT" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push if changed
+        if: steps.sync.outputs.result == 'CHANGED'
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config user.name "Tharindu1222"
+          git config user.email "162180049+Tharindu1222@users.noreply.github.com"
+          git add data/github-repos.json
+          git commit -m "chore: sync GitHub repos data"
+          git push

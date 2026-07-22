@@ -39,3 +39,25 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # Portfolio-WebSite
+
+## Daily GitHub repos sync
+
+A scheduled GitHub Action keeps `data/github-repos.json` in sync with your public repositories.
+
+### One-time setup (required for contribution graph)
+
+1. Create a [Personal Access Token](https://github.com/settings/tokens) (classic: `repo` scope, or fine-grained: Contents read/write on this repo).
+2. In this repo: **Settings → Secrets and variables → Actions → New repository secret**
+   - Name: `GH_PAT`
+   - Value: your token
+3. Open **Actions → Sync GitHub repos → Run workflow** to test.
+
+Commits must use your account (via `GH_PAT`). The default `GITHUB_TOKEN` commits as `github-actions[bot]` and **does not** count on your contribution graph.
+
+### Run locally
+
+```bash
+node scripts/sync-github-repos.mjs
+```
+
+Optional: set `GH_PAT` in the environment for a higher API rate limit.
