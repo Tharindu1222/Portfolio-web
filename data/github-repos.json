@@ -1,7 +1,17 @@
 {
-  "synced_at": "2026-07-22T05:30:36.970Z",
+  "synced_at": "2026-07-22T05:48:49.293Z",
   "username": "Tharindu1222",
   "repos": [
+    {
+      "name": "Portfolio-web",
+      "description": "Full responsive portfolio website  | React Next JS , Tailwind , Motion |",
+      "html_url": "https://github.com/Tharindu1222/Portfolio-web",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-07-22T05:42:57Z",
+      "topics": []
+    },
     {
       "name": "Throttlelk",
       "description": null,
@@ -30,16 +40,6 @@
       "stargazers_count": 0,
       "forks_count": 0,
       "updated_at": "2026-01-17T10:04:57Z",
-      "topics": []
-    },
-    {
-      "name": "Portfolio-web",
-      "description": "Full responsive portfolio website  | React Next JS , Tailwind , Motion |",
-      "html_url": "https://github.com/Tharindu1222/Portfolio-web",
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2025-09-20T11:01:32Z",
       "topics": []
     },
     {
