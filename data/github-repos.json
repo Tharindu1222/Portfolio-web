@@ -1,7 +1,17 @@
 {
-  "synced_at": "2026-08-06T03:47:47.775Z",
+  "synced_at": "2026-08-07T03:24:27.001Z",
   "username": "Tharindu1222",
   "repos": [
+    {
+      "name": "Portfolio-web",
+      "description": "Full responsive portfolio website  | React Next JS , Tailwind , Motion |",
+      "html_url": "https://github.com/Tharindu1222/Portfolio-web",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-08-06T03:47:57Z",
+      "topics": []
+    },
     {
       "name": "Tharindu1222",
       "description": "Config files for my GitHub profile.",
@@ -14,16 +24,6 @@
         "config",
         "github-config"
       ]
-    },
-    {
-      "name": "Portfolio-web",
-      "description": "Full responsive portfolio website  | React Next JS , Tailwind , Motion |",
-      "html_url": "https://github.com/Tharindu1222/Portfolio-web",
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2026-08-05T03:42:33Z",
-      "topics": []
     },
     {
       "name": "Throttlelk",
