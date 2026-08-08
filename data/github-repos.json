@@ -1,7 +1,17 @@
 {
-  "synced_at": "2026-08-07T03:24:27.001Z",
+  "synced_at": "2026-08-08T02:26:46.041Z",
   "username": "Tharindu1222",
   "repos": [
+    {
+      "name": "MaX-Ride",
+      "description": null,
+      "html_url": "https://github.com/Tharindu1222/MaX-Ride",
+      "language": "Dart",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-08-07T11:52:24Z",
+      "topics": []
+    },
     {
       "name": "Portfolio-web",
       "description": "Full responsive portfolio website  | React Next JS , Tailwind , Motion |",
@@ -9,7 +19,7 @@
       "language": "TypeScript",
       "stargazers_count": 0,
       "forks_count": 0,
-      "updated_at": "2026-08-06T03:47:57Z",
+      "updated_at": "2026-08-07T03:24:41Z",
       "topics": []
     },
     {
@@ -113,16 +123,6 @@
       "stargazers_count": 0,
       "forks_count": 0,
       "updated_at": "2024-12-12T09:23:49Z",
-      "topics": []
-    },
-    {
-      "name": "AutoStreams",
-      "description": "Backend",
-      "html_url": "https://github.com/Tharindu1222/AutoStreams",
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2024-12-12T04:04:35Z",
       "topics": []
     }
   ]
