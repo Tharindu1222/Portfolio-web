@@ -1,17 +1,7 @@
 {
-  "synced_at": "2026-09-22T05:12:08.695Z",
+  "synced_at": "2026-09-23T04:56:37.500Z",
   "username": "Tharindu1222",
   "repos": [
-    {
-      "name": "Portfolio-web",
-      "description": "Full responsive portfolio website  | React Next JS , Tailwind , Motion |",
-      "html_url": "https://github.com/Tharindu1222/Portfolio-web",
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2026-09-21T05:12:08Z",
-      "topics": []
-    },
     {
       "name": "ThrottleLK-Marketplace",
       "description": null,
@@ -19,7 +9,17 @@
       "language": "TypeScript",
       "stargazers_count": 0,
       "forks_count": 1,
-      "updated_at": "2026-09-20T05:24:02Z",
+      "updated_at": "2026-09-22T10:57:07Z",
+      "topics": []
+    },
+    {
+      "name": "Portfolio-web",
+      "description": "Full responsive portfolio website  | React Next JS , Tailwind , Motion |",
+      "html_url": "https://github.com/Tharindu1222/Portfolio-web",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-09-22T05:12:13Z",
       "topics": []
     },
     {
